@@ -1,0 +1,24 @@
+tbody{
+    text-align:center;
+}
+td{
+    border-bottom: 1px solid #ddd;
+    padding: 7px 10px;
+}
+td:not(:first-child){
+    border-left: 1px solid #ddd;
+}
+.sort{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.sort select{
+    padding: 7px 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.sort input{
+    padding: 7px 8px;
+    font-size: 14px;
+}

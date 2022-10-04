@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    min-width: 340px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    cursor: pointer;
+}
+span, a, button, input, i,img{
+    display: inline-block;
+}
+img{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
