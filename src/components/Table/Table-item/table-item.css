@@ -1,0 +1,26 @@
+.pagination{
+    display: flex;
+    position: absolute;
+    bottom: -70px;
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+}
+
+.prevBtn, .nextBtn{
+    font-size: 20px;
+    cursor: pointer;
+    color: royalblue;
+}
+.pagination a{
+    font-size: 25px;
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+.activePagination{
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+}
